@@ -23,7 +23,7 @@ const Wallet = (props) => {
             <div className="walletSection" style={{position:"relative"}}>
                 <div className="d-flex px-0 mx-0 walletSection">
                 <Sidebar/>
-                <Transaction/>
+                <Transaction data={props} />
                 <AddMoney openModal={openModal}/>
                 </div>
             </div>
@@ -36,4 +36,4 @@ const Wallet = (props) => {
     )
 }
 
-export default Wallet
+export default Wallet;
