@@ -11,7 +11,6 @@ function App() {
     <>
       <Header />
       <BrowserRouter>
-
         <Routes>
           <Route exact index path='/' element={<Home />}></Route>
           <Route path='/portfolio' element={<Portfolio />}></Route>

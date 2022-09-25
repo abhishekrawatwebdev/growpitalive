@@ -25,4 +25,5 @@ const bankDetails = {
     transactionId: "DBTR/ 222201998174",
 }
 
+
 export default bankDetails;

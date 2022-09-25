@@ -5,15 +5,18 @@ import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalance
 import debited from "../logos/debited.png"
 import credited from "../logos/credited.png"
 import failed from "../logos/failed.png"
+import bankDetails from '../BankDetails/Details';
 
 const Transaction = () => {
+    
+  
   return (
-    <div className='transaction w-100 px-5' >
+    <div className='transaction px-5' style={{width: "58%"}} >
         <div className="balanceCard p-3">
            <div className='d-flex justify-content-between'>
             <div className="balance">
                  <p style={{color:"white"}} className="pb-0 mb-0">Your Balance</p>
-                <p style={{color:"white"}} className="fs-4 fw-bold">$4210.00</p>
+                <p style={{color:"white"}} className="fs-4 fw-bold">${bankDetails.BankBalance}</p>
             </div>
             <div className="walletIcon">
                 <AccountBalanceWalletOutlinedIcon style={{color:"white"}} className="fs-2 mt-2"/>

@@ -176,8 +176,13 @@ body {
 }
 
 @media screen and (max-width: 580px) {
+    .transaction {
+        width: 100% !important;
+    }
+
     .transactions {
         height: fit-content !important;
+
     }
 
     .modalMiddle {
