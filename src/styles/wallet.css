@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: rgb(23, 23, 26) !important;
+
+}
+
+.addMoney {
+    background-color: rgb(23, 23, 26);
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.addMoneyPara {
+    color: white;
+}
+
+.moneyList {
+    list-style-type: none;
+    color: rgb(254, 191, 50);
+    justify-content: center;
+
+}
+
+.moneyOptions p {
+    background-color: rgb(42, 45, 60);
+    padding: 0;
+}
+
+.moneyOptions p:hover {
+    color: rgb(23, 23, 26);
+    background-color: rgb(7, 229, 125);
+}
+
+.moneyOptions p {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popular {
+    background: rgb(69, 233, 165);
+    background: linear-gradient(90deg, rgba(69, 233, 165, 1) 0%, rgba(57, 220, 105, 1) 21%, rgba(232, 247, 123, 1) 43%, rgba(239, 170, 86, 1) 65%, rgba(242, 142, 158, 1) 86%);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.sendMoney {
+    background: rgb(239, 170, 86);
+    background: linear-gradient(90deg, rgb(148, 102, 46) 0%, rgba(81, 70, 21, 1) 100%);
+    border-radius: 5px;
+}
+
+.balanceCard {
+    background-color: rgb(7, 229, 125);
+    /* background: rgb(7, 229, 125);
+    background: linear-gradient(90deg, rgba(7, 229, 125, 1) 0%, rgba(2, 111, 60, 1) 100%); */
+    border-radius: 10px;
+
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: green !important;
+}
+
+.red {
+    color: rgb(254, 60, 60) !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.walletSection {
+    justify-content: space-between;
+}
+
+.smallred {
+    color: rgb(254, 60, 60) !important;
+    font-size: x-small;
+    padding-top: 0;
+    margin: 0;
+}
+
+.balanceCard {
+    width: 50%;
+}
+
+.transactionModal {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    backdrop-filter: blur(20px);
+
+
+}
+
+.transactionModal p {
+    font-size: small;
+}
+
+.modalMiddle p {
+    line-height: 1.3;
+}
+
+.modalTopData p {
+    margin-bottom: 0;
+
+}
+
+.statusDetail p {
+    color: white;
+    margin-bottom: 0;
+
+
+}
+
+.modalTransactionStatus {
+    width: 100%;
+    background-color: rgb(61, 90, 71);
+    align-items: center;
+    border-radius: 5px;
+}
+
+.transactionDetails {
+    width: 100%;
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 10px;
+
+}
+
+.transactionDetails p {
+    color: white;
+    margin-bottom: 0;
+    line-height: 1.3;
+
+}
+
+/*  */
+/* media queries */
+/*  */
+@media screen and (max-width:1200px) {
+    .balanceCard {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .me-5 {
+        margin-left: -3rem !important;
+    }
+
+    .transactionDetails {
+        margin-top: 5%;
+    }
+
+    .modalMiddle {
+        width: 60% !important;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .transactions {
+        height: fit-content !important;
+    }
+
+    .modalMiddle {
+        width: 90% !important;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .transaction {
+        margin-top: 10%;
+    }
+
+    .sidebarMenu {
+        justify-content: center;
+    }
+
+    .walletSection {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .sidebar {
+        width: 100vw;
+    }
+
+    .sidebarList {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .addMoney {
+        margin-top: 10%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .sidebarList li {
+        /* padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important; */
+    }
+
+    .sidebarList li a {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebarList li p {
+        margin-left: 0;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .balanceCard {
+        width: fit-content !important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    margin-left: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(239, 170, 86);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

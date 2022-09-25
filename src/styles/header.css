@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100vw;
+    background-color: rgb(23, 23, 26) !important;
+
+
+}
+
+.navlink {
+    color: white !important;
+    background: rgb(69, 233, 165);
+    background: linear-gradient(90deg, rgba(69, 233, 165, 1) 0%, rgba(57, 220, 105, 1) 21%, rgba(232, 247, 123, 1) 43%, rgba(239, 170, 86, 1) 65%, rgba(242, 142, 158, 1) 86%);
+    background-clip: text;
+    transition: all 0.4s ease-in-out;
+}
+
+.navlink:hover {
+    color: transparent !important;
+}
+
+
+.iconYellow {
+    color: rgb(254, 191, 50) !important;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.iconYellow:hover {
+    color: green !important;
+}
+
+.logo {
+    background: rgb(69, 233, 165);
+    background: linear-gradient(90deg, rgba(69, 233, 165, 1) 0%, rgba(57, 220, 105, 1) 21%, rgba(232, 247, 123, 1) 43%, rgba(239, 170, 86, 1) 65%, rgba(242, 142, 158, 1) 86%);
+    background-clip: text;
+    color: transparent;
+}

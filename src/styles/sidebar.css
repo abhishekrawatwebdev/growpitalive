@@ -1,0 +1,47 @@
+.sidebarList li {
+    list-style-type: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebarList li:hover {
+    background-color: rgb(23, 23, 26);
+}
+
+.sidebarlink {
+    color: rgb(169, 173, 194) !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebarList li:hover .sidebarlink {
+    color: rgb(254, 191, 50) !important;
+}
+
+.sidebarMenu {
+    cursor: default;
+    border-bottom: 2px solid rgb(254, 191, 50) !important;
+    color: rgb(254, 191, 50) !important;
+
+
+}
+
+.sidebarList {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(32, 34, 43);
+    border-radius: 5px;
+}
+
+.sidebarList li p {
+    margin-left: 1rem;
+    margin-bottom: 0 !important;
+}
+
+.activeSidelink {
+    color: rgb(254, 191, 50) !important;
+
+}
