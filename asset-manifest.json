@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/growpitalapp/static/css/main.fada0bbd.css",
+    "main.js": "/growpitalapp/static/js/main.c89ff189.js",
+    "index.html": "/growpitalapp/index.html",
+    "main.fada0bbd.css.map": "/growpitalapp/static/css/main.fada0bbd.css.map",
+    "main.c89ff189.js.map": "/growpitalapp/static/js/main.c89ff189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fada0bbd.css",
+    "static/js/main.c89ff189.js"
+  ]
+}
